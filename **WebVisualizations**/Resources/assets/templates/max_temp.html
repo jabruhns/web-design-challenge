@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="eng us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        Weather Data
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">WeatherPy</a>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="file:///Users/mymac/Desktop/web-design-challenge/**WebVisualizations**/Resources/assets/templates/index.html#">
+                                        Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparison.html">
+                                    Comparison</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Plots
+                                    </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="max_temp.html">
+                                        Max Temp</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="humidity.html">
+                                        Humidity</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="cloudiness.html">
+                                        Cloudiness</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="wind_speed.html">
+                                        Wind Speed</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">
+                                        Data</a>
+                        </li>
+
+                    </ul>
+            </form>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-md-auto col-sm-12">
+                <h1>
+                    Latitude Vs. Max Temp
+                </h1>
+                <section id="summary">
+                    <section id="figure">
+                        <img id="subject" src="../images/Fig1.png" alt="Fig1">
+                    </section>
+                    <p>The intention behind this metric against the static comparitive was to illustrate the trends of Maximum Temperature in regards to their equatorial distance. This illustration very clearly demonstrates an easily identifiable trend,
+                        that being that, without any notable outliers, maximum temperatures average gradually lower the farther from the equator the measure originates from.
+                        <br><br>One noteworthy observation that can be made about the dataset is that there is a much higher density of data in the Northern Hemisphere than the Southern. This is likely attributable to a number of variable factors, the
+                        most obvious assumptions being that there is a higher concentration of non-oceanic, populous areas in the Northern than the Southern, specifically Canada, Russia, and Northern Europe.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
